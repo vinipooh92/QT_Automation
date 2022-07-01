@@ -36,4 +36,9 @@ public class BasePage {
         driver.manage().window().maximize();
     }
 
+    protected void minimizeWindow()
+    {
+        driver.manage().window().minimize();
+    }
+
 }
