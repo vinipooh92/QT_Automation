@@ -1,0 +1,4 @@
+# Project exclude paths
+/QT_Framework/target/
+/QT_PageObjects/target/
+/QT_Test/target/
