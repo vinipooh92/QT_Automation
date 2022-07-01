@@ -8,6 +8,7 @@ public void homePageTest()
     GoogleHomePage googleHomePage = new GoogleHomePage(getWebDriver());
     ExtentReportClass.testInfo("Starting the url");
     googleHomePage.getUrl();
+    googleHomePage.maximizeWindow();
 
 }
 

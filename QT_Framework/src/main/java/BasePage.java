@@ -31,4 +31,9 @@ public class BasePage {
         webDriverWait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
     }
 
+    protected void maximizeWindow()
+    {
+        driver.manage().window().maximize();
+    }
+
 }
